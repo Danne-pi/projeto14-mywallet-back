@@ -4,7 +4,6 @@ import {
   usersCollection,
   postsCollection,
 } from "../database/db.js";
-import { v4 as uuidV4 } from "uuid";
 import { postsSchema } from "../models/posts.model.js";
 
 export async function createPost(req, res) {
